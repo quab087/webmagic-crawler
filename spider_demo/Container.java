@@ -259,9 +259,9 @@ public class Container extends JFrame {
     			new StatusMessage(mainprocessor,"- - - - - - - - - - - - - - - \nDelete cookies:NullPointException\n - - - - - - - - - - - - - - -");
     			return;
     		}
-    	}else
+    	}else{
             quest.Stop();
-	
+	}
     }    
     
     private void timerActionPerformed(ActionEvent evt){
