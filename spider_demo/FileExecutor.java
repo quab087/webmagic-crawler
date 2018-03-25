@@ -35,7 +35,7 @@ class FileExecutor implements Pipeline{
 			String split = entry.getValue().toString().replace("<!--", "");
 			split = split.replace("-->", "");
 			Document DOM = Jsoup.parse(split);
-		    name = DOM.select("a[class=_2nlw _2nlv]").first();
+		    	name = DOM.select("a[class=_2nlw _2nlv]").first();
 			col = DOM.select("li[class~=_3pw9]");
 			if(new File("C:/down/Post" + count + ".txt").exists()){
 				
