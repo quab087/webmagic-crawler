@@ -1,6 +1,6 @@
 package com.spider.spider_demo;
 /***
-爬蟲線程的主要邏輯區塊，處理資料後再送至pipeline、executor處理，連接FBpipeline、MainProcessor
+爬蟲線程的主要邏輯區塊，處理資料後再送至pipeline、executor處理，連接FBpipeline、FileExcecutor、MainProcessor
 ***/
 import java.io.*;
 import java.util.HashMap;
