@@ -1,5 +1,7 @@
 package com.spider.spider_demo;
-
+/***
+將從FBPageProcessor接收的資料作後處理，再輸出至Current Status訊息框的pipeline
+***/
 import java.util.Map;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
