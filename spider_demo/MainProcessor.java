@@ -1,7 +1,9 @@
 package com.spider.spider_demo;
 
 /***
-此項目中的Main character，控制不同線程的連接與循環
+此項目中的Main character，作為各類別，不同執行緒之間連接用的載體。連接Container - > FBPageProcessor - > 
+ - > FBpipeline、FileExecutor - > MessageProcessor - > MainProcessor
+ 以及StatusMessage - > MessageProcessor - > MainProcessor
 ***/
 
 import java.io.File; 
