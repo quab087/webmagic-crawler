@@ -22,9 +22,9 @@ public class MainProcessor {
 	public void isUpdate(int count){	
 
 		File file = new File("C:/down/Post" + count + ".txt");
-    	if(!file.exists()){
-    		container.rewrite(count,true);
-    	}
+    		if(!file.exists()){
+    			container.rewrite(count,true);
+    		}
 	}
 	
 	public static void main(String[] argv){
