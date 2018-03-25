@@ -1,6 +1,6 @@
 package com.spider.spider_demo;
 /***
-將從FBPageProcessor接收處理過的資料作後處理，寫成檔案的pipeline
+將從FBPageProcessor接收處理過的資料作後處理，寫成檔案的pipeline，連接MessageProcessor、MainProcessor
 ***/
 import java.io.BufferedReader;
 import java.io.File;
