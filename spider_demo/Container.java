@@ -1,5 +1,7 @@
 package com.spider.spider_demo;
-
+/***
+生成Graphic user interface，並監聽從MainProcessor傳來的資料，連接FBPageProcessor、MainProcessor
+***/
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
