@@ -1,5 +1,9 @@
 package com.spider.spider_demo;
 
+/***
+此項目中的Main character，控制不同線程的連接與循環
+***/
+
 import java.io.File; 
 
 public class MainProcessor {
