@@ -1,6 +1,6 @@
 package com.spider.spider_demo;
 /***
-利用MainProcessor作為載體，可在各區塊輸出訊息至Current Status訊息框
+獨立區塊，可在各區塊輸出訊息至Current Status訊息框，連接MessageProcessor - > MainProcessor
 ***/
 public class StatusMessage {
 	
