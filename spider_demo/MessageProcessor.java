@@ -1,7 +1,8 @@
 package com.spider.spider_demo;
 
 /***
-處理來自FBpipeline、StatusMessage、FileExecutor的訊息。接收後並送至MainProcessor，完成一次循環
+處理來自FBpipeline、StatusMessage、FileExecutor的訊息。接收後並送至MainProcessor，完成一次循環。
+FBpipeline、StatusMessage、FileExecutor -> MessageProcessor - > MainProcessor
 ***/
 
 public class MessageProcessor{
