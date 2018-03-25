@@ -15,7 +15,7 @@ public class MessageProcessor{
 	}
 	
 	private MainProcessor mainprocessor;
-    String content = new String();
+    	String content = new String();
 	StringBuilder collection = new StringBuilder();
 	
 }
